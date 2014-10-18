@@ -1,0 +1,6 @@
+@import 'bar.css';
+
+.foo {
+  color: blue;
+  background: url('img/check-sprite.gif');
+}

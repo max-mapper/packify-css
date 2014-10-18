@@ -1,0 +1,30 @@
+{
+  "name": "packify-css",
+  "version": "1.0.0",
+  "description": "turns a css file into a single executable by combining @imports and base64 inlining images",
+  "main": "index.js",
+  "bin": {
+    "packify-css": "bin.js"
+  },
+  "scripts": {
+    "test": "node bin.js test/foo.css"
+  },
+  "author": "max ogden",
+  "license": "BSD",
+  "dependencies": {
+    "css-combine": "^0.1.6",
+    "imageinliner": "^0.2.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxogden/packify-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/packify-css/issues"
+  },
+  "homepage": "https://github.com/maxogden/packify-css"
+}
